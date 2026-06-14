@@ -17,8 +17,7 @@ import dash_ag_grid as dag
 # ----------------------------
 # Environment & configuration
 # ----------------------------
-WAREHOUSE_ID = os.getenv("DATABRICKS_WAREHOUSE_ID","3eecce71c654f492")
-print("WAREHOUSE_ID =", WAREHOUSE_ID)
+WAREHOUSE_ID = os.getenv("DATABRICKS_WAREHOUSE_ID")
 assert WAREHOUSE_ID, "DATABRICKS_WAREHOUSE_ID must be set in app.yaml."
 
 # Optional API key for external callers (set APP_API_KEY in app.yaml or as a secret)

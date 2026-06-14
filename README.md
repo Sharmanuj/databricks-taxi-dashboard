@@ -56,7 +56,7 @@ data-app/
 Warehouse ID:
 
 ```text
-3eecce71c654f492
+Warehouse ID
 ```
 
 ### Environment Variables
