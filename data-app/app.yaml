@@ -1,0 +1,20 @@
+command: [
+  "python",
+  "app.py"
+]
+
+env:
+
+  - name: DATABRICKS_HOST 
+    value: "DATABRICKS_HOST" 
+    
+  - name: DATABRICKS_TOKEN 
+    value: "DATABRICKS_TOKEN"
+
+  - name: "DATABRICKS_WAREHOUSE_ID"
+    valueFrom: "DATABRICKS_WAREHOUSE_ID"
+
+expose:
+  - path: /
+    port: 8000
+    protocol: http
